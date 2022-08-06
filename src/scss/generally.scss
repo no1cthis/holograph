@@ -1,0 +1,51 @@
+$bg-color-header: rgba(15, 20, 52, 0.95);
+$bg-color: linear-gradient(284.15deg, #0B2F44 -7.35%, #0F052D 101.22%);
+$white: #fff;
+$black: #2f2f2f;
+$blue: #00A9FF;
+$dark-blue: #1530A4;
+$darkest-blue: #0F1434;
+$light-blue: #00A9FF;
+$light-blue-gradient: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(93.81deg, #00A9FF 26.41%, #007BBE 100.14%);
+$light-blue-gradient-reverse: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(93.81deg, #007BBE 26.41%, #00A9FF 100.14%);
+$blue-team-gradient: linear-gradient(283.27deg, #0981BE 3.51%, #003674 101.26%);
+$linear-gradient-blue: linear-gradient(155.46deg, #00418D 1.07%, #007DBB 100%);
+$bg-welcome-page: linear-gradient(90deg, #8BAED4 0%, #CEDBEB 22.12%, #D8E1EE 40.52%, #EEDBDF 56.32%, #ECBCBC 81.79%, #FE9E9F 100%);
+$linear-gradient-dark-blue: linear-gradient(180deg, #0D0615 46.16%, #170927 100%);
+
+@mixin Artifika-font {
+font-family: 'Artifika';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+
+@mixin Montserrat-font{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@mixin Title-font {
+    font-family: 'Artifika';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: $white;
+
+    span{
+        color: $blue
+    }
+    
+}
+
+@mixin button {
+    margin: 20px 40px 20px 0;
+    border: 0px  solid;
+    border-radius: 15px;
+    padding: 7px 15px;
+    background: $light-blue-gradient;
+}

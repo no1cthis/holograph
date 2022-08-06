@@ -1,0 +1,58 @@
+@import '/src/scss/generally.scss';
+
+.tokenomics{
+    background: $linear-gradient-dark-blue;
+    color:$white;
+    display: flex;
+    flex-direction: column;
+    
+
+    padding-top: 70px;
+
+    &-title{
+        @include Title-font();
+        text-align: center;
+
+    }
+
+    &-subtitle{
+        @include Montserrat-font();
+        margin-top: 30px;
+        text-align: center;
+        color: $blue;
+    }
+
+    .description{
+        @include Montserrat-font();
+        margin-top: 55px;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        justify-content: space-between;
+
+        span{
+            color:$blue;
+        }
+
+        &__left{
+            width: 530px;
+        }
+
+        &__right{
+            width: 531px;
+        }
+
+        .line{
+            margin-top: -20px;
+            height: 90px;
+            width: 2px;
+            background-color: #fff;
+        }
+    }
+}
+
+.diagram{
+    display: flex;
+    margin: 60px auto;
+   
+}

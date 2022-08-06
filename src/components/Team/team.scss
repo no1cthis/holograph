@@ -1,0 +1,61 @@
+@import "/src/scss/generally.scss";
+
+.team{
+    background: $blue-team-gradient;
+    display: flex;
+    flex-direction: column;
+    color:$white;
+    padding-bottom: 75px;
+    min-height: 400px;
+
+    .team-list{
+        display: flex;
+        overflow: hidden;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    &__title{
+        @include Title-font();
+        text-align: center;
+        margin-top: 75px;
+    }
+
+    &-item{
+        @include Artifika-font();
+        font-size: 16px;
+        width: 185px;
+        cursor: pointer;
+        
+        &__picture{
+            height: 185px;
+            width: 185px;
+            overflow: hidden;
+
+            border: 3px solid $dark-blue;
+            border-radius: 5px;
+        }
+
+        &__name{
+            
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        &__position{
+            margin-top: 10px;
+            color: $blue;
+            text-align: center;
+        }
+
+        &__description{
+            @include Montserrat-font();
+            width: 165px;
+            margin: 10px auto 0 auto;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+
+        }
+    }
+}

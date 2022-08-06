@@ -1,0 +1,19 @@
+@import "/src/scss/generally.scss";
+
+.partners{
+    background: $darkest-blue;
+    display: flex;
+    padding-bottom: 60px;
+
+    &-title{
+        @include Title-font();
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+}

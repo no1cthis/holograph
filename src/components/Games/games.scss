@@ -1,0 +1,127 @@
+@import '/src/scss/generally.scss';
+
+.games{
+    
+    &__section{
+        display: flex;
+        padding-top: 20px;
+        background: $linear-gradient-dark-blue;
+        color: $white;
+        min-height: 600px;
+        padding-bottom: 40px;
+    }
+
+    &__title{
+        @include Title-font();
+
+    }
+
+    &__wrapper{
+        display: flex;
+        margin-top: 35px;
+    }
+}
+
+.game-active{
+width: 680px;
+
+&__inner{
+    display: flex;  
+}
+
+&__image{
+    width: 240px;
+    height: 360px;
+    border: 1px solid $dark-blue;
+    border-radius: 10px;
+}
+
+&__text{
+    margin-left: 50px;
+    overflow: hidden;
+    height: 350px;
+}
+
+&__title{
+    @include Artifika-font();
+    font-size: 24px;
+    justify-content: center;
+    margin-top: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+&__blue-block{
+    @include Montserrat-font();
+    display: inline-block;
+    color: "#000";
+    margin-left: -10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: $dark-blue;
+    height: 30px;
+    overflow: hidden
+}
+
+&__description--blue{
+    @include Artifika-font();
+    color: $light-blue;
+    margin-top: 15px;
+    height: 65px;
+    overflow: hidden;
+}
+&__description{
+    @include Montserrat-font();
+    margin-top: 15px;
+}
+
+&__line{
+    margin-top: 30px;
+    width: 100%;
+    height: 10px;
+    background-color: $dark-blue;
+}
+}
+
+.game-unactive{
+
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+width: 185px;
+// margin-bottom: 30px;
+
+&:nth-child(even){
+    margin-left: 20px;
+}
+
+&__title{
+    @include Artifika-font();
+    display: flex;
+    font-size: 21px;
+    line-height: 25px;
+    justify-content: center;
+}
+
+&__image{
+   margin: 15px auto 0 auto;
+    height: 250px;
+    width: 167px;
+    border: 2px solid $dark-blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+&__line{
+    margin-top: 30px;
+    width: 185px;
+    height: 10px;
+    background-color: #4e4e4e;
+}
+
+&__wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 120px;
+}
+}

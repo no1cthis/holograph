@@ -1,0 +1,54 @@
+@import '/src/scss/generally.scss';
+
+.hero{
+    @include Artifika-font();
+    cursor: pointer;
+    width: 240px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: $darkest-blue;
+
+    border: 2px solid $dark-blue;
+    border-radius: 5px;
+
+    position: relative;
+
+    &__rarity{
+        text-align: end;
+        padding: 10px 0;
+
+        &-text{
+            display: inline;
+            font-size: 15px;
+            padding: 10px 10px;
+            border-bottom: 1px solid $dark-blue;
+        }
+    }
+
+    &__picture{
+        margin-top: -20px;
+    }
+
+    &__gear{
+        position: absolute;
+        right: -85px;
+        top: 150px;
+
+        border: 2px solid $dark-blue;
+        border-radius: 5px;     
+        
+        background-color: $darkest-blue;
+    }
+
+    &__name{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 24px;
+        transition-duration: 0.3s;
+    }
+
+    &:hover .hero__name{
+        color: $dark-blue
+    }
+}

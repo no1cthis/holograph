@@ -1,0 +1,53 @@
+@import '/src/scss/generally.scss';
+
+.marketplace{
+    overflow: hidden;
+    padding-bottom: 60px;
+
+    background: $bg-color;
+    color:$white;
+    display: flex;
+
+    &__title{
+        @include Title-font();
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    &__subtitle{
+        @include Title-font();
+        font-size: 24px;
+        line-height: 29px;
+        width: 620px;
+        margin-top: 65px;
+    }
+
+}
+
+.propose{
+    display: inline-block;
+    width: 100%;
+    margin-top: 55px;
+    &__text{
+        @include Montserrat-font();
+        display: flex;
+        color: #1A032C;
+        font-size: 22px;
+        
+        justify-content: center;
+        padding: 10px;
+        background-color: $dark-blue;
+        margin: 0 calc(-1 * (100vw - (1440px - 280px)));
+        &-item{
+            margin: 0 35px;
+        }
+    }
+}
+
+.heroes-line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}

@@ -1,0 +1,46 @@
+@import '/src/scss/generally.scss';
+
+li{
+    list-style-type: none;
+}
+
+.footer{
+    padding-top: 10px;
+    background:  $bg-color-header;
+    color: $white;
+
+
+    &__logo{
+        display: flex;
+        margin: auto 0;
+        width: 300px;
+        height: 100%;
+        
+
+        >img{
+            
+            width: 300px;
+        }
+    }
+
+    &__wrapper{
+        display: flex;
+    }
+
+    &-list{
+        display: flex;
+        justify-content: flex-end;
+    }
+    &-menu{
+        margin: 15px;
+
+        &__item{
+            @include Artifika-font();
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 10px;
+            
+        }
+    }
+}
+
