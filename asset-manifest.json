@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/holograph/static/css/main.f087f921.css",
-    "main.js": "/holograph/static/js/main.783e0ddd.js",
+    "main.js": "/holograph/static/js/main.33376a58.js",
     "static/media/bg-1.png": "/holograph/static/media/bg-1.1686a3645538512b353f.png",
     "static/media/diagram.png": "/holograph/static/media/diagram.22cde8f0920ca67d4d01.png",
     "static/media/game-img-1.jpg": "/holograph/static/media/game-img-1.590bc3e6b82e2744cc1f.jpg",
@@ -16,10 +16,10 @@
     "static/media/partner-logo-2.svg": "/holograph/static/media/partner-logo-2.8bca6de70bb07828c68242587cb562d9.svg",
     "index.html": "/holograph/index.html",
     "main.f087f921.css.map": "/holograph/static/css/main.f087f921.css.map",
-    "main.783e0ddd.js.map": "/holograph/static/js/main.783e0ddd.js.map"
+    "main.33376a58.js.map": "/holograph/static/js/main.33376a58.js.map"
   },
   "entrypoints": [
     "static/css/main.f087f921.css",
-    "static/js/main.783e0ddd.js"
+    "static/js/main.33376a58.js"
   ]
 }
