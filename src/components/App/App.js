@@ -29,7 +29,7 @@ function App() {
                     <Route location = {location} key = {location.pathname} path='/marketplace'  element={[<Marketplace/>, <Airdrops/>]}/>
                     <Route location = {location} key = {location.pathname} path='/tokenomics'   element={[<Tokenomics/>, <Partners/>]}/>
                     <Route location = {location} key = {location.pathname} path='/team'         element={<Team/>}/>
-                    <Route location = {location} key = {location.pathname} path='/'             element={<WelcomePage/>}/>
+                    <Route location = {location} key = {location.pathname} path='/holograph'    element={<WelcomePage/>}/>
                 </Routes>
             </AnimatePresence>
             <Footer/>
