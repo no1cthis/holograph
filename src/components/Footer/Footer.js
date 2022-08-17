@@ -33,7 +33,7 @@ function Footer() {
             <div class="container">
                 <div class="footer__wrapper">
                     <div class="column">
-                    <Link to="/" className="footer__logo"><img src={logo} alt="logo"/></Link>
+                    <Link to="/holograph" className="footer__logo"><img src={logo} alt="logo"/></Link>
                     </div>
                     <div class="column">
                         <div class="footer-list">

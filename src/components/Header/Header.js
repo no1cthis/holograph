@@ -14,7 +14,7 @@ function Header () {
     <header class="header">
         <div class="container-header">
             <div class="header__wrapper">
-                <Link to="/" className="header__logo"><img src={logo} alt="logo"/></Link>
+                <Link to="/holograph" className="header__logo"><img src={logo} alt="logo"/></Link>
                 <nav class="menu">
                     
                     <ul class="menu__list">
