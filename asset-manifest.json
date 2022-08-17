@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/holograph/static/css/main.f087f921.css",
+    "main.js": "/holograph/static/js/main.783e0ddd.js",
+    "static/media/bg-1.png": "/holograph/static/media/bg-1.1686a3645538512b353f.png",
+    "static/media/diagram.png": "/holograph/static/media/diagram.22cde8f0920ca67d4d01.png",
+    "static/media/game-img-1.jpg": "/holograph/static/media/game-img-1.590bc3e6b82e2744cc1f.jpg",
+    "static/media/partner-logo-3.svg": "/holograph/static/media/partner-logo-3.b95c55763e4b41260445a7874a8232ae.svg",
+    "static/media/coins.png": "/holograph/static/media/coins.bc6068d3b3e00437932c.png",
+    "static/media/game-img-3.jpg": "/holograph/static/media/game-img-3.0bc413efbd4e49599bdf.jpg",
+    "static/media/game-img-2.jpg": "/holograph/static/media/game-img-2.f89988a2be87269e59e0.jpg",
+    "static/media/hero.png": "/holograph/static/media/hero.faacf8cbadca906392f4.png",
+    "static/media/partner-logo-1.svg": "/holograph/static/media/partner-logo-1.6a8bab26110e726a739568b2a0cb732b.svg",
+    "static/media/gear.png": "/holograph/static/media/gear.a5007e53a47f56ffec32.png",
+    "static/media/logo.svg": "/holograph/static/media/logo.b6a9a46c44d8557217cb4ad3ae6cab16.svg",
+    "static/media/partner-logo-2.svg": "/holograph/static/media/partner-logo-2.8bca6de70bb07828c68242587cb562d9.svg",
+    "index.html": "/holograph/index.html",
+    "main.f087f921.css.map": "/holograph/static/css/main.f087f921.css.map",
+    "main.783e0ddd.js.map": "/holograph/static/js/main.783e0ddd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f087f921.css",
+    "static/js/main.783e0ddd.js"
+  ]
+}
