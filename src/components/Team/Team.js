@@ -78,26 +78,28 @@ function Team() {
 
     return ( 
     <ChangePage>
-        <section class="team" id="team">
-            <div class="container">
-                <motion.div {...animationTitle}class="team__title"><span>T</span>eam</motion.div>
+            <section class="team" id="team">
+                <div class="container">
+                    <motion.div {...animationTitle}class="team__title"><span>T</span>eam</motion.div>
 
-                <div class="team-list">
-                {[...teamList]}
+                    <div class="team-list">
+                    {[...teamList]}
+                    </div>
                 </div>
-            </div>
-        </section>
-    <Modal setModal={setModal} active = {modal}>
-        <TeamMember 
-            key         = {team[modalId].name}
-            name        = {team[modalId].name} 
-            position    = {team[modalId].position}
-            description = {team[modalId].desciption}
-            picture     = {team[modalId].picture}
-            id          = {team[modalId].id}
-            init
-        />
-    </Modal>
+            </section>
+
+            
+            <Modal setModal={setModal} active = {modal}>
+                <TeamMember 
+                    key         = {team[modalId].name}
+                    name        = {team[modalId].name} 
+                    position    = {team[modalId].position}
+                    description = {team[modalId].desciption}
+                    picture     = {team[modalId].picture}
+                    id          = {team[modalId].id}
+                    init
+                />
+            </Modal>
     </ChangePage>
      );
 }

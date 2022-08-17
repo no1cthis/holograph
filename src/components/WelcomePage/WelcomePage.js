@@ -22,16 +22,21 @@ function WelcomePage() {
                         <div class="welcome-page__title">
                             {title}
                         </div>
+
                         <div class="welcome-page__play">
                             Play. Have fun. Earn
                         </div>
+
                         <div class="welcome-page__subtitle">
                             {subtitle}
                         </div>
+                        
                         <div className="welcome-page__button">
                         <Button link={buttonLink}>{buttonText}</Button>
                         </div>
                     </div>
+
+
                     <div class="column-2">
                         <img src={bgImage} alt="bg-welcome-page"/>
                     </div>

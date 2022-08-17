@@ -30,19 +30,19 @@ function Footer() {
     return ( 
 
         <footer class="footer">
-    <div class="container">
-        <div class="footer__wrapper">
-            <div class="column">
-            <Link to="/" className="footer__logo"><img src={logo} alt="logo"/></Link>
-            </div>
-            <div class="column">
-                <div class="footer-list">
-                    {[...menuItemList]}
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="column">
+                    <Link to="/" className="footer__logo"><img src={logo} alt="logo"/></Link>
+                    </div>
+                    <div class="column">
+                        <div class="footer-list">
+                            {[...menuItemList]}
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</footer>
+        </footer>
 
      );
 }
